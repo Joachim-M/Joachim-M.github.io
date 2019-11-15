@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 个人博客
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Six-V
+language: zh-cn
 timezone: ''
 
 # URL
@@ -90,7 +90,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: polarbear
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
