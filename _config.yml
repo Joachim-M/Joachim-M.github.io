@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 个人博客
+title: Six-V Blog
 subtitle: ''
 description: ''
 keywords:
 author: Six-V
 language: zh-cn
 timezone: ''
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
