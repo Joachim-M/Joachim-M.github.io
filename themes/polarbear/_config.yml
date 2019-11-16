@@ -17,8 +17,10 @@ favicon: /favicon.ico
 # Menu Settings
 # ===========================================
 menu:
+    首页: /
     归档: /archives
     关于: /about
+
 
 archive_generator:
     per_page: 0
