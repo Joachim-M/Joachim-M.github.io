@@ -41,7 +41,7 @@
 		{% if post.tags and post.tags.length %}
 		<div class="post-tags">
 		  {% for tag in post.tags %}
-			<a href="{{ url_for(tag.path) }}">{{ tag.name }}</a>
+			<a href="{{ url_for(tag.path) }}"><i class="fa fa-tag"></i> {{ tag.name }}</a>
 		  {% endfor %}
 		</div>
 		{% endif %}
