@@ -14,7 +14,7 @@
 
 
 
-  <meta name="description" content="Ngixn动态反向代理"/>
+  <meta name="description" content="Ngixn的一种动态反向代理"/>
 
 
 
@@ -33,21 +33,21 @@
 
 
 
-<link rel="canonical" href="http://yoursite.com/2019/11/16/Ngixn动态反向代理/"/>
+<link rel="canonical" href="http://yoursite.com/2019/11/16/Ngixn的一种动态反向代理/"/>
 
 
 <meta name="description" content="&amp;emsp;&amp;emsp;最新公司有个很有意思的需求,官网iframe访问内网部署的一个第三方开源系统 Ambari，并且每个实例对应一个Ambari Web服务。所以考虑到了用 Ngixn 来做动态反向代理。     方案1.根据访问实例调用接口获取该实例内网的IP和Port，并动态拼接到请求链接后2.Nginx通过ui请求链接后边的url参数进行动态代理 Nginx 动态代理1234567891">
 <meta name="keywords" content="nginx">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Ngixn动态反向代理">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;16&#x2F;Ngixn%E5%8A%A8%E6%80%81%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86&#x2F;index.html">
+<meta property="og:title" content="Ngixn的一种动态反向代理">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;16&#x2F;Ngixn%E7%9A%84%E4%B8%80%E7%A7%8D%E5%8A%A8%E6%80%81%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86&#x2F;index.html">
 <meta property="og:site_name" content="Six-V Blog">
 <meta property="og:description" content="&amp;emsp;&amp;emsp;最新公司有个很有意思的需求,官网iframe访问内网部署的一个第三方开源系统 Ambari，并且每个实例对应一个Ambari Web服务。所以考虑到了用 Ngixn 来做动态反向代理。     方案1.根据访问实例调用接口获取该实例内网的IP和Port，并动态拼接到请求链接后2.Nginx通过ui请求链接后边的url参数进行动态代理 Nginx 动态代理1234567891">
 <meta property="og:locale" content="zh-cn">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;16&#x2F;Ngixn%E5%8A%A8%E6%80%81%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86&#x2F;nginx.png">
-<meta property="og:updated_time" content="2019-11-16T09:07:45.455Z">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;16&#x2F;Ngixn%E7%9A%84%E4%B8%80%E7%A7%8D%E5%8A%A8%E6%80%81%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86&#x2F;nginx.png">
+<meta property="og:updated_time" content="2019-11-16T11:20:46.508Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;16&#x2F;Ngixn%E5%8A%A8%E6%80%81%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86&#x2F;nginx.png">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;16&#x2F;Ngixn%E7%9A%84%E4%B8%80%E7%A7%8D%E5%8A%A8%E6%80%81%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86&#x2F;nginx.png">
 
 
 <link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1" />
@@ -85,7 +85,7 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-    <title> Ngixn动态反向代理 - Six-V Blog </title>
+    <title> Ngixn的一种动态反向代理 - Six-V Blog </title>
   </head>
 
   <body>
@@ -146,7 +146,7 @@ var _hmt = _hmt || [];
     <header class="post-header">
       <h1 class="post-title">
         
-          Ngixn动态反向代理
+          Ngixn的一种动态反向代理
         
       </h1>
 
@@ -169,7 +169,7 @@ var _hmt = _hmt || [];
 <br>
 <br>
 
-<p><img src="/2019/11/16/Ngixn%E5%8A%A8%E6%80%81%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/nginx.png" alt="nginx"></p>
+<p><img src="/2019/11/16/Ngixn%E7%9A%84%E4%B8%80%E7%A7%8D%E5%8A%A8%E6%80%81%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/nginx.png" alt="nginx"></p>
 <h6 id="方案"><a href="#方案" class="headerlink" title="方案"></a>方案</h6><p>1.根据访问实例调用接口获取该实例内网的IP和Port，并动态拼接到请求链接后<br><br>2.Nginx通过ui请求链接后边的url参数进行动态代理<br></p>
 <h6 id="Nginx-动态代理"><a href="#Nginx-动态代理" class="headerlink" title="Nginx 动态代理"></a>Nginx 动态代理</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">// $args 所有请求参数</span><br><span class="line">// $arg_url 获取请求中的的参数名的值（url为参数名）</span><br><span class="line">// $request_uri 请求参数的原始URI，不包含主机名</span><br><span class="line">// $uri 当前的请求URI，不包括任何参数(见$args)</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line">location /ambria/ &#123;     </span><br><span class="line">  set $ambria_args $args;</span><br><span class="line">  set $ambria_uri $uri;</span><br><span class="line">  # 去除 ambria</span><br><span class="line">  if ($uri ~ &quot;^/ambria(.*)$&quot;) &#123;</span><br><span class="line">      set</span><br><span class="line">  $ambria_uri $1;</span><br><span class="line">  &#125;</span><br><span class="line">  # 去除url参数</span><br><span class="line">  if ($args ~ &quot;^(.*)(&amp;url=.*)(&amp;.*)$&quot;) &#123;</span><br><span class="line">      set</span><br><span class="line">  $ambria_args $1$3;</span><br><span class="line">  &#125;</span><br><span class="line">  if ($args ~ &quot;^(url=.*&amp;)(.*)$&quot;) &#123;</span><br><span class="line">      set</span><br><span class="line">  $ambria_args $2;</span><br><span class="line">  &#125;</span><br><span class="line">  if ($args ~ &quot;^(url=.*)$&quot;) &#123;</span><br><span class="line">      set</span><br><span class="line">  $ambria_args &apos;&apos;;</span><br><span class="line">  &#125;</span><br><span class="line">  # 解决禁止iframe内嵌</span><br><span class="line">  proxy_hide_header</span><br><span class="line">  X-Frame-Options;</span><br><span class="line">  add_header X-Frame-Options</span><br><span class="line">  ALLOW-FROM;</span><br><span class="line">  # socket</span><br><span class="line">  proxy_http_version 1.1;</span><br><span class="line">  proxy_set_header Upgrade</span><br><span class="line">  $http_upgrade;</span><br><span class="line">  proxy_set_header</span><br><span class="line">  Connection &quot;upgrade&quot;;</span><br><span class="line">  # 代理</span><br><span class="line">  proxy_pass </span><br><span class="line">  http://$arg_url$ambria_uri?$ambria_args;</span><br><span class="line">  error_page 404 /404;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
