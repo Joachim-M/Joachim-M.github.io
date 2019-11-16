@@ -762,8 +762,6 @@ h6 {
         margin-right: 5px;
         color: #aaa;
         word-break: break-all; }
-        .post .post-footer .post-tags a::before {
-          content: '#'; }
     .post .post-footer .post-nav {
       margin: 1em 0; }
       .post .post-footer .post-nav:before, .post .post-footer .post-nav:after {
