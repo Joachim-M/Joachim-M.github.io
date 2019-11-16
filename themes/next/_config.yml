@@ -35,7 +35,7 @@ canonical: true
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
 seo: false
 
-# If true, will add site-subtitle to index page, added in main hexo config.
+# If true, will add site-subtitle to images page, added in main hexo config.
 # subtitle: Subtitle
 index_with_subtitle: false
 
@@ -168,7 +168,7 @@ sidebar:
 
   # Scroll percent label in b2t button
   scrollpercent: false
-  
+
   # Enable sidebar on narrow view
   onmobile: false
 

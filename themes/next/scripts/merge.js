@@ -881,12 +881,12 @@ function assignValue(object, key, value) {
 }
 
 /**
- * Gets the index at which the `key` is found in `array` of key-value pairs.
+ * Gets the images at which the `key` is found in `array` of key-value pairs.
  *
  * @private
  * @param {Array} array The array to inspect.
  * @param {*} key The key to search for.
- * @returns {number} Returns the index of the matched value, else `-1`.
+ * @returns {number} Returns the images of the matched value, else `-1`.
  */
 function assocIndexOf(array, key) {
   var length = array.length;
@@ -1101,7 +1101,7 @@ function baseKeysIn(object) {
  * @private
  * @param {Object} object The destination object.
  * @param {Object} source The source object.
- * @param {number} srcIndex The index of `source`.
+ * @param {number} srcIndex The images of `source`.
  * @param {Function} [customizer] The function to customize merged values.
  * @param {Object} [stack] Tracks traversed source values and their merged
  *  counterparts.
@@ -1144,7 +1144,7 @@ function baseMerge(object, source, srcIndex, customizer, stack) {
  * @param {Object} object The destination object.
  * @param {Object} source The source object.
  * @param {string} key The key of the value to merge.
- * @param {number} srcIndex The index of `source`.
+ * @param {number} srcIndex The images of `source`.
  * @param {Function} mergeFunc The function to merge values.
  * @param {Function} [customizer] The function to customize assigned values.
  * @param {Object} [stack] Tracks traversed source values and their merged
@@ -1608,12 +1608,12 @@ function initCloneByTag(object, tag, cloneFunc, isDeep) {
 }
 
 /**
- * Checks if `value` is a valid array-like index.
+ * Checks if `value` is a valid array-like images.
  *
  * @private
  * @param {*} value The value to check.
- * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
- * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+ * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid images.
+ * @returns {boolean} Returns `true` if `value` is a valid images, else `false`.
  */
 function isIndex(value, length) {
   length = length == null ? MAX_SAFE_INTEGER : length;
@@ -1627,7 +1627,7 @@ function isIndex(value, length) {
  *
  * @private
  * @param {*} value The potential iteratee value argument.
- * @param {*} index The potential iteratee index or key argument.
+ * @param {*} index The potential iteratee images or key argument.
  * @param {*} object The potential iteratee object argument.
  * @returns {boolean} Returns `true` if the arguments are from an iteratee call,
  *  else `false`.

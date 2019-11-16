@@ -19,7 +19,7 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing index.html from permalinks
+  trailing_index: true # Set to false to remove trailing images.html from permalinks
 
 # Directory
 source_dir: source
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -51,7 +51,7 @@ highlight:
   tab_replace: ''
 
 # Home page setting
-# path: Root path for your blogs index page. (default = '')
+# path: Root path for your blogs images page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
@@ -99,3 +99,5 @@ deploy:
   type: 'git'
   repository: git@github.com:Joachim-M/Joachim-M.github.io.git
   branch: master
+
+

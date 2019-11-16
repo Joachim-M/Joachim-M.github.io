@@ -3,22 +3,22 @@
  *
  * Usage:
  *
- * {% tabs [Unique name], [index] %}
+ * {% tabs [Unique name], [images] %}
  * <!-- tab [Tab caption]@[icon] -->
  * Any content (support inline tags too).
  *  <!-- endtab -->
  * {% endtabs %}
  *
  * [Unique name]      : Unique name of tabs block tag without comma.
- *                      Will be used in #id's as prefix for each tab with their index numbers.
+ *                      Will be used in #id's as prefix for each tab with their images numbers.
  *                      If there are whitespaces in name, for generate #id all whitespaces will replaced by dashes.
  *                      Only for current url of post/page must be unique!
- * [index]            : Index number of active tab.
+ * [images]            : Index number of active tab.
  *                      If not defined, first tab (1) will be selected.
- *                      If index is -1, no tab will be selected. It's will be something like spoiler.
+ *                      If images is -1, no tab will be selected. It's will be something like spoiler.
  *                      May be not defined.
  * [Tab caption]      : Caption of current tab.
- *                      If not caption specified, unique name with tab index suffix will be used as caption of tab.
+ *                      If not caption specified, unique name with tab images suffix will be used as caption of tab.
  *                      If not caption specified, but specified icon, caption will empty.
  *                      May be not defined.
  * [icon]             : Font awesome icon.

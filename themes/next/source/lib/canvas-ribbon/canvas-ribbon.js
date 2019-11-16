@@ -40,7 +40,7 @@
   }
 
   var o = document.createElement("canvas");
-  o.style.cssText = "position:fixed;top:0;left:0;z-index:-1", document.getElementsByTagName("body")[0].appendChild(o);
+  o.style.cssText = "position:fixed;top:0;left:0;z-images:-1", document.getElementsByTagName("body")[0].appendChild(o);
   var i, c = o,
     a = c.getContext("2d"),
     l = window.devicePixelRatio || 1,
