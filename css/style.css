@@ -555,26 +555,29 @@ h6 {
     margin-bottom: 10px; }
   .post .post-excerpt p {
     margin: 0 0 16px; }
-  .post .post-excerpt h1 {
-    font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
-    margin-bottom: 20px; }
-  .post .post-excerpt h2 {
-    font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
-    margin-bottom: 20px; }
-  .post .post-excerpt h3 {
-    font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
-    margin-bottom: 20px; }
-  .post .post-excerpt h4 {
-    font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
-    margin-bottom: 20px; }
-  .post .post-excerpt h5 {
-    font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
-    margin-bottom: 20px; }
-  .post .post-excerpt h6 {
-    font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
-    margin-bottom: 20px; }
+  .post .post-excerpt {
+    padding-left: 8px; }
+    .post .post-excerpt h1 {
+      font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
+      margin-bottom: 20px; }
+    .post .post-excerpt h2 {
+      font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
+      margin-bottom: 20px; }
+    .post .post-excerpt h3 {
+      font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
+      margin-bottom: 20px; }
+    .post .post-excerpt h4 {
+      font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
+      margin-bottom: 20px; }
+    .post .post-excerpt h5 {
+      font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
+      margin-bottom: 20px; }
+    .post .post-excerpt h6 {
+      font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
+      margin-bottom: 20px; }
   .post .post-content {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    padding-left: 8px; }
     .post .post-content h1 {
       font-family: notoserif, "Helvetica Neue", Arial, sourcehansans, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
       margin-bottom: 0; }
