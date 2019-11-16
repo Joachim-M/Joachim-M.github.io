@@ -3,6 +3,7 @@
 // ==============================
 
 .post-excerpt{
+    padding-left: 8px;
     @for $i from 1 through 6 {
         h#{$i} {
             // font-size: 1.3em;
@@ -16,6 +17,7 @@
 
 .post-content {
     margin-bottom: $content-margin-bottom;
+    padding-left: 8px;
 
     @for $i from 1 through 6 {
         h#{$i} {
